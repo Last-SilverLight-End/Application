@@ -8,12 +8,14 @@
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"
     android:layout_marginStart="10dp"
+    android:background="#FFFFFF"
     android:layout_marginBottom="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Show_Credits"
+        android:background="#E6EABD"
         android:orientation="vertical">
         <TextView
             android:id="@+id/present_semester_grade"
@@ -58,6 +60,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginLeft="30sp"
+            android:layout_marginBottom="20sp"
             android:layout_marginRight="30sp">
 
             <TextView
@@ -75,6 +78,51 @@
                 android:layout_height="wrap_content"
                 android:max="45"
                 android:progress="30"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id = "@+id/Total_Grade_Percent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30sp"
+            android:layout_marginBottom="20sp"
+            android:layout_marginRight="30sp"
+            android:weightSum="100">
+
+            <!--여기에서 A+ ,A,B+,B,C+,C,D+,D,F 총 9개로 나누어야 함 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="30"
+                android:textSize="18sp"
+                android:background="#00ff0000"
+                android:text= "A+"
+
+                android:id="@+id/Percent_Of_A1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="30"
+                android:textSize="18sp"
+                android:background="#00ff0000"
+                android:text= "A0"
+
+                android:id="@+id/Percent_Of_A2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="40"
+                android:textSize="18sp"
+                android:background="#00ff0000"
+                android:text= "B+"
+
+                android:id="@+id/Percent_Of_B1"/>
 
 
         </LinearLayout>
