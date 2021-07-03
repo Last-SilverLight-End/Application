@@ -90,39 +90,93 @@
             android:layout_marginLeft="30sp"
             android:layout_marginBottom="20sp"
             android:layout_marginRight="30sp"
-            android:weightSum="100">
+
+>
 
             <!--여기에서 A+ ,A,B+,B,C+,C,D+,D,F 총 9개로 나누어야 함 -->
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:layout_weight="30"
+                android:layout_weight="1"
                 android:textSize="18sp"
                 android:background="#00ff0000"
                 android:text= "A+"
 
                 android:id="@+id/Percent_Of_A1"/>
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:layout_weight="30"
+                android:layout_weight="1"
                 android:textSize="18sp"
                 android:background="#00ff0000"
                 android:text= "A0"
 
                 android:id="@+id/Percent_Of_A2"/>
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:layout_weight="40"
+                android:layout_weight="1"
                 android:textSize="18sp"
                 android:background="#00ff0000"
                 android:text= "B+"
-
                 android:id="@+id/Percent_Of_B1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:background="#00ff0000"
+                android:text= "B0"
+                android:id="@+id/Percent_Of_B2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:background="#00ff0000"
+                android:text= "C+"
+                android:id="@+id/Percent_Of_C1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:background="#00ff0000"
+                android:text= "C0"
+                android:id="@+id/Percent_Of_C2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:background="#00ff0000"
+                android:text= "D+"
+                android:id="@+id/Percent_Of_D1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:background="#00ff0000"
+                android:text= "D0"
+                android:id="@+id/Percent_Of_D2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:background="#00ff0000"
+                android:text= "F"
+                android:id="@+id/Percent_Of_F"/>
 
 
         </LinearLayout>
